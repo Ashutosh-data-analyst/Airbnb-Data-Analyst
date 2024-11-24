@@ -1,5 +1,5 @@
 # Airbnb-Data-Analyst
-Data Analyst project using Python, Numpy, Pandas, seaborn and Matplotlib
+Data Analyst project using **Python**, **Numpy**, **Pandas**, **seaborn** and **Matplotlib**
 
 ## Project Overview
 
@@ -30,3 +30,26 @@ The dataset including:
 
 ## Steps:
 
+### 1. Data Cleaning
+- **Handle Missing Data**: Addressed null values in the price, neighborhood, and beds columns.
+- **Remove Outliers**: Capped prices above $1,000 to prevent skewed visualizations.
+
+### 2. EDA (Exploratory Data Analysis)
+1. **Room type distribution**:
+   - Visualized the count of each room type using Histogram plots.
+   - Identified that **"Entire home/apt"** is the most common room type.
+
+2. **Neighborhood group insights**:
+   - Analyzed price variations with neighbourhood group of each room types.
+   - **Manhattan** had the highest average prices.
+
+3. **Availability trends:**
+   - Used **Heatmaps** to show correlations among price, availability_365, number_of_reviews, and beds.
+
+4. **Price distribution:**
+   - Used **Histograms** to show the distribution of prices.
+   - Majority of the listings were priced between **$50 - $300**.
+
+5. **Review behavior:**
+   - Used **Pair plots** to show relationships between number of reviews, price, and availability.
+   
