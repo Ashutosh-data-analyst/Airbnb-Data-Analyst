@@ -1,5 +1,5 @@
 # Airbnb-Data-Analyst
-Data Analyst project using **Python**, **Numpy**, **Pandas**, **seaborn** and **Matplotlib**
+Data Analyst project using **Python**, **Numpy**, **Pandas**, **Seaborn** and **Matplotlib**
 
 ## Project Overview
 
@@ -37,7 +37,7 @@ The dataset including:
 ### 2. EDA (Exploratory Data Analysis)
 1. **Room type distribution**:
    - Visualized the count of each room type using Histogram plots.
-   - Identified that **"Entire home/apt"** is the most common room type.
+   - Identified that **"Entire homes/apartments"** is the most common room type.
 
 2. **Neighborhood group insights**:
    - Analyzed price variations with neighbourhood group of each room types.
@@ -54,6 +54,21 @@ The dataset including:
    - Used **Scatter Plot** and find relation between Price and Number of review according to Locations.
    - Identified that **Manhattan** have maximumn number of reviews.
 
-7. **Review behavior**:
+6. **Review behavior**:
    - Used **Pair plots** to show relationships between number of reviews, price, and availability.
+
+### 3.  Data Visualization
+- **Pairplot**: To see correlations among price, availability, and number of reviews.
+- **Heatmap**: Showing correlations among numerical features.
+- **Histograms and Boxplots**: To detect outliers in price.
+- **Bar Charts**: Displaying room types and neighborhood group distributions.
    
+## Key Findings and Insights
+
+### 1. Price Trends:
+ - **Manhattan** features the most expensive listings, with Brooklyn coming in second.
+ - **Entire homes/apartments** are significantly more expensive than private or shared rooms.
+### 2.
+### 3.
+### 4.
+### 5. 
