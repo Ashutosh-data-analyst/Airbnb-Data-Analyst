@@ -43,13 +43,17 @@ The dataset including:
    - Analyzed price variations with neighbourhood group of each room types.
    - **Manhattan** had the highest average prices.
 
-3. **Availability trends:**
+3. **Availability trends**:
    - Used **Heatmaps** to show correlations among price, availability_365, number_of_reviews, and beds.
 
 4. **Price distribution:**
    - Used **Histograms** to show the distribution of prices.
    - Majority of the listings were priced between **$50 - $300**.
 
-5. **Review behavior:**
+5. **Location and Review Dependency**:
+   - Used **Scatter Plot** and find relation between Price and Number of review according to Locations.
+   - Identified that **Manhattan** have maximumn number of reviews.
+
+7. **Review behavior**:
    - Used **Pair plots** to show relationships between number of reviews, price, and availability.
    
